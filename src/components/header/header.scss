@@ -1,0 +1,44 @@
+.header {
+  width: 100%;
+  background-color: #272f51;
+
+  &__container {
+    width: 100%;
+    max-width: 1320px;
+    padding: 24px 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: 600px) {
+      padding: 15px 20px;
+    }
+
+    @media screen and (max-width: 500px) {
+      padding: 10px 15px;
+    }
+  }
+
+  &__image-block {
+    width: 100%;
+    max-width: 187px;
+    height: auto;
+
+    @media screen and (max-width: 600px) {
+      max-width: 160px;
+    }
+
+    @media screen and (max-width: 500px) {
+      max-width: 130px;
+    }
+
+    @media screen and (max-width: 450px) {
+      max-width: 100px;
+    }
+  }
+
+  &__logo {
+    width: 100%;
+  }
+}

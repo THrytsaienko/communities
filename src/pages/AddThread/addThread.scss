@@ -1,0 +1,41 @@
+.new-thread {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+
+  &__text {
+    margin-bottom: 20px;
+  }
+
+  &__input-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  &__label {
+    margin-bottom: 5px;
+  }
+
+  &__input {
+    padding: 5px 10px;
+  }
+
+  &__button {
+    width: 100%;
+    max-width: 170px;
+    padding: 10px 0;
+    cursor: pointer;
+    background-color: #272f51;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin: 15px auto 0 auto;
+
+    &:hover {
+      background-color: #576ed1;
+    }
+  }
+}

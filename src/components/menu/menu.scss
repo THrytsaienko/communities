@@ -1,0 +1,19 @@
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+  @media screen and (max-width: 400px) {
+    display: none;
+  }
+
+  &__item {
+    display: inline-block;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+  }
+}
